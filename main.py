@@ -544,7 +544,7 @@ async def on_member_join(member):
       grupo = discord.utils.find(lambda g: g.name == "👨🏻‍🚀 JOGADOR", member.server.roles)
       await client.add_roles(member, grupo)
 
-      channel = client.get_channel('418218874081771549')
+      channel = client.get_channel('441641217399324673')
       serverchannel = member.server.default_channel
       embedmsg = discord.Embed(
           title="Olá {}!".format(member.name),
